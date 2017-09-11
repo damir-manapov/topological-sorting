@@ -1,4 +1,4 @@
-package ru.natalietours.domain;
+package ru.app.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

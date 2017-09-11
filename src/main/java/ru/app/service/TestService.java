@@ -1,11 +1,11 @@
-package ru.natalietours.service;
+package ru.app.service;
 
 import eu.hinsch.spring.boot.actuator.metric.ExecutionMetric;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.logging.LogLevel;
 import org.springframework.stereotype.Service;
-import ru.natalietours.domain.TestEntity;
+import ru.app.domain.TestEntity;
 
 @Service
 public class TestService {

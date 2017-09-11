@@ -1,4 +1,4 @@
-package ru.natalietours.configuration;
+package ru.app.configuration;
 
 import eu.hinsch.spring.boot.actuator.metric.ExecutionMetricFactory;
 import org.springframework.boot.actuate.metrics.CounterService;

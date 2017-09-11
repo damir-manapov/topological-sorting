@@ -1,4 +1,4 @@
-package ru.natalietours.exception;
+package ru.app.exception;
 
 public class NatalieException extends RuntimeException {
 
