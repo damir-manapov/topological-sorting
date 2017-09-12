@@ -1,4 +1,4 @@
-package ru.app;
+package ru.damirmanapov;
 
 import eu.hinsch.spring.boot.actuator.metric.ExecutionMetricFactory;
 import org.springframework.beans.factory.annotation.Value;
@@ -20,8 +20,8 @@ import static org.mockito.Mockito.mock;
 @EnableConfigurationProperties
 @SpringBootConfiguration
 @Profile("units")
-@ComponentScan({"ru.app.service",
-        "ru.app.controller"})
+@ComponentScan({"ru.damirmanapov.service",
+        "ru.damirmanapov.controller"})
 @EnableWebMvc
 public class TestConfig {
 

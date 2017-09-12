@@ -1,4 +1,4 @@
-package ru.app.job;
+package ru.damirmanapov.job;
 
 import eu.hinsch.spring.boot.actuator.metric.ExecutionMetric;
 import org.springframework.boot.logging.LogLevel;

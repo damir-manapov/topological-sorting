@@ -1,12 +1,12 @@
-package ru.app.service;
+package ru.damirmanapov.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.annotations.Test;
-import ru.app.TestConfig;
-import ru.app.domain.TestEntity;
+import ru.damirmanapov.TestConfig;
+import ru.damirmanapov.domain.TestEntity;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.beans.SamePropertyValuesAs.samePropertyValuesAs;

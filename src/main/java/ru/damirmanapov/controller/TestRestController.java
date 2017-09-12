@@ -1,4 +1,4 @@
-package ru.app.controller;
+package ru.damirmanapov.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import ru.app.domain.TestEntity;
-import ru.app.service.TestService;
+import ru.damirmanapov.domain.TestEntity;
+import ru.damirmanapov.service.TestService;
 
 @RestController
 public class TestRestController {

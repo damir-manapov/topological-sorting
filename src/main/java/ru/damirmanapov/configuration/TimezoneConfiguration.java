@@ -1,4 +1,4 @@
-package ru.app.configuration;
+package ru.damirmanapov.configuration;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;

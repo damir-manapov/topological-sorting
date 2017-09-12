@@ -1,4 +1,4 @@
-package ru.app.domain;
+package ru.damirmanapov.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

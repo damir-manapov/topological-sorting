@@ -1,4 +1,4 @@
-package ru.app.configuration;
+package ru.damirmanapov.configuration;
 
 import eu.hinsch.spring.boot.actuator.metric.ExecutionMetricFactory;
 import org.springframework.boot.actuate.metrics.CounterService;

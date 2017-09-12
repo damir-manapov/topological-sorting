@@ -1,11 +1,11 @@
-package ru.app.service;
+package ru.damirmanapov.service;
 
 import eu.hinsch.spring.boot.actuator.metric.ExecutionMetric;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.logging.LogLevel;
 import org.springframework.stereotype.Service;
-import ru.app.domain.TestEntity;
+import ru.damirmanapov.domain.TestEntity;
 
 @Service
 public class TestService {

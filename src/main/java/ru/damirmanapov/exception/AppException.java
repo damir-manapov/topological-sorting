@@ -1,4 +1,4 @@
-package ru.app.exception;
+package ru.damirmanapov.exception;
 
 public class AppException extends RuntimeException {
 
