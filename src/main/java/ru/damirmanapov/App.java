@@ -10,9 +10,17 @@ public class App {
 
     public static void main(String[] args) {
 
+        // Print arguments
+        for (String s : args) {
+            logger.info("argument: {}", s);
+        }
+
         switch (args[0]) {
-            case "test":
-                logger.info("test");
+            case "do-something":
+                logger.info("do-something");
+                break;
+            case "do-something-else":
+                logger.info("do-something-else");
                 break;
             default:
                 throw new AppException("wrong argument");
