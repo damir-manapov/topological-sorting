@@ -3,6 +3,8 @@ package ru.damirmanapov;
 import joptsimple.OptionParser;
 import joptsimple.OptionSet;
 import joptsimple.OptionSpec;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
@@ -17,6 +19,8 @@ import static org.testng.AssertJUnit.assertEquals;
 @Test
 public class DummyTest {
 
+    private static final Logger logger = LoggerFactory.getLogger(DummyTest.class);
+
     public static <T> List<T> asList(T... elements) {
         ArrayList<T> result = new ArrayList<>(elements.length);
         for (T val : elements) {
@@ -27,6 +31,7 @@ public class DummyTest {
 
     @Test
     public void testIs() {
+        logger.info("Test message");
         assertThat(true, is(true));
     }
 
